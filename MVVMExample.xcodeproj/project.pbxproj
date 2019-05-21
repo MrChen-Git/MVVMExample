@@ -13,6 +13,7 @@
 		88F08FB52293AD8E00C6DABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F08FB42293AD8E00C6DABB /* Assets.xcassets */; };
 		88F08FB82293AD8E00C6DABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F08FB62293AD8E00C6DABB /* LaunchScreen.storyboard */; };
 		88F08FBB2293AD8E00C6DABB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F08FBA2293AD8E00C6DABB /* main.m */; };
+		88F08FCB2293D1D100C6DABB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F08FCA2293D1D100C6DABB /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		88F08FB72293AD8E00C6DABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88F08FB92293AD8E00C6DABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88F08FBA2293AD8E00C6DABB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88F08FC92293D1D100C6DABB /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		88F08FCA2293D1D100C6DABB /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		88F08FC72293CFC500C6DABB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				88F08FC92293D1D100C6DABB /* LoginViewController.h */,
+				88F08FCA2293D1D100C6DABB /* LoginViewController.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F08FCB2293D1D100C6DABB /* LoginViewController.m in Sources */,
 				88F08FB02293AD8D00C6DABB /* ViewController.m in Sources */,
 				88F08FBB2293AD8E00C6DABB /* main.m in Sources */,
 				88F08FAD2293AD8D00C6DABB /* AppDelegate.m in Sources */,
