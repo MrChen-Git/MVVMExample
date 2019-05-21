@@ -58,6 +58,9 @@
 		88F08FAA2293AD8D00C6DABB /* MVVMExample */ = {
 			isa = PBXGroup;
 			children = (
+				88F08FC82293CFCB00C6DABB /* Model */,
+				88F08FC72293CFC500C6DABB /* View */,
+				88F08FC62293C97300C6DABB /* ViewModel */,
 				88F08FAB2293AD8D00C6DABB /* AppDelegate.h */,
 				88F08FAC2293AD8D00C6DABB /* AppDelegate.m */,
 				88F08FAE2293AD8D00C6DABB /* ViewController.h */,
@@ -69,6 +72,27 @@
 				88F08FBA2293AD8E00C6DABB /* main.m */,
 			);
 			path = MVVMExample;
+			sourceTree = "<group>";
+		};
+		88F08FC62293C97300C6DABB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		88F08FC72293CFC500C6DABB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88F08FC82293CFCB00C6DABB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
